@@ -1,0 +1,29 @@
+﻿body h1 {
+    background-color: red;
+}
+
+body, top-bar {
+    background-color: blue;
+}
+
+body, top-bar, main-bar {
+    width: 80%;
+    background-color: green;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+body, top-bar, main-bar, contact-left {
+    flex-grow: 4;
+    background-color: blueviolet;
+    display: flex;
+    gap: 20px;
+}
+
+body, top-bar, main-bar, login-right {
+    flex-grow: 2;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
